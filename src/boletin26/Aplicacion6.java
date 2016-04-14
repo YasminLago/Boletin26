@@ -9,7 +9,8 @@ public class Aplicacion6 extends javax.swing.JFrame {
     public Aplicacion6() {
         initComponents();
         buttonGroup1.clearSelection();
-        int [] seleccion = new int [6]; 
+        char [] seleccion = new char [6]; 
+        
         jButton1.setName("1");
         jButton2.setName("2");
         jButton3.setName("3");
@@ -58,8 +59,7 @@ public class Aplicacion6 extends javax.swing.JFrame {
         jButton46.setName("46");
         jButton47.setName("47");
         jButton48.setName("48");
-        jButton49.setName("49");
-       
+        jButton49.setName("49");       
     }
 
     @SuppressWarnings("unchecked")
@@ -538,13 +538,12 @@ public class Aplicacion6 extends javax.swing.JFrame {
         for (int x=0;x<numAleatorio.length;x++){
             numAleatorio [x] = (int) Math.floor(Math.random()*49)+1;
             premio.append(separador).append(numAleatorio[x]);
-        }
-        
+        }        
         lNumeroPremiado.setText(premio.toString());
     }//GEN-LAST:event_bComprobarActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        Object obx = evt.getSource();
+        Object obx = evt.getSource();     
         if (obx == jButton1)
             lApuesta. setText(jButton1.getName());
     }//GEN-LAST:event_jButton1ActionPerformed
