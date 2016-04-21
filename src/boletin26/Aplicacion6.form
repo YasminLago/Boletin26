@@ -56,9 +56,8 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
                   <EmptySpace pref="15" max="32767" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jButton1" alignment="0" pref="0" max="32767" attributes="0"/>
                           <Component id="jLabel1" max="32767" attributes="0"/>
                           <Component id="jButton9" alignment="0" min="-2" pref="63" max="-2" attributes="0"/>
                       </Group>
@@ -69,6 +68,7 @@
                       <Component id="jButton6" alignment="1" min="-2" pref="68" max="-2" attributes="0"/>
                       <Component id="jButton7" alignment="1" min="-2" pref="68" max="-2" attributes="0"/>
                       <Component id="jButton8" alignment="1" min="-2" pref="68" max="-2" attributes="0"/>
+                      <Component id="jButton1" alignment="1" pref="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -99,7 +99,6 @@
                   <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="jButton31" pref="63" max="32767" attributes="0"/>
                           <Component id="jButton32" alignment="0" pref="0" max="32767" attributes="0"/>
                           <Component id="jButton33" alignment="0" pref="0" max="32767" attributes="0"/>
                           <Component id="jButton34" alignment="0" pref="0" max="32767" attributes="0"/>
@@ -108,6 +107,7 @@
                           <Component id="jButton37" alignment="0" pref="0" max="32767" attributes="0"/>
                           <Component id="jButton38" pref="0" max="32767" attributes="0"/>
                           <Component id="jButton30" pref="0" max="32767" attributes="0"/>
+                          <Component id="jButton31" alignment="0" min="-2" pref="63" max="-2" attributes="0"/>
                       </Group>
                       <Component id="jButton39" alignment="0" min="-2" pref="63" max="-2" attributes="0"/>
                   </Group>
@@ -125,6 +125,11 @@
                       <Component id="jButton49" pref="0" max="32767" attributes="0"/>
                   </Group>
                   <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="lNumeroPremiado" min="-2" pref="178" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                      </Group>
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
@@ -146,8 +151,12 @@
                                                           <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
                                                       </Group>
                                                       <Group type="102" alignment="1" attributes="0">
-                                                          <Component id="numeroPrimiado" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="numeroPremiado" min="-2" max="-2" attributes="0"/>
                                                           <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                                                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                                                       </Group>
                                                   </Group>
                                               </Group>
@@ -159,13 +168,12 @@
                                       </Group>
                                   </Group>
                               </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="157" max="-2" attributes="0"/>
+                                  <Component id="lReintegro" min="-2" pref="108" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                           <EmptySpace pref="67" max="32767" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="lNumeroPremiado" min="-2" pref="178" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -191,33 +199,36 @@
                   </Group>
                   <Group type="103" groupAlignment="1" attributes="0">
                       <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
                               <Group type="102" attributes="0">
-                                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                                              <Component id="jButton41" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="jButton11" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jButton21" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jButton31" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jButton21" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jButton31" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jButton41" alignment="0" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lApuesta" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
                                   </Group>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="lApuesta" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jButton1" max="32767" attributes="0"/>
+                                      <Component id="jButton11" max="32767" attributes="0"/>
                                   </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jButton12" min="-2" max="-2" attributes="0"/>
                               <Component id="jButton22" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -226,10 +237,7 @@
                               <Component id="jButton2" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <Group type="102" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="bComprobar" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="bComprobar" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
@@ -238,7 +246,7 @@
                               <Component id="jButton13" min="-2" max="-2" attributes="0"/>
                               <Component id="jButton3" min="-2" pref="65" max="-2" attributes="0"/>
                               <Component id="jButton43" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="numeroPrimiado" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="numeroPremiado" alignment="1" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
@@ -262,49 +270,58 @@
                   </Group>
                   <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jButton35" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton25" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton15" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton45" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton5" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                          <Component id="jButton26" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton16" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton36" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton46" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Component id="jButton6" alignment="1" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jButton27" min="-2" max="-2" attributes="0"/>
-                              <Component id="jButton17" min="-2" max="-2" attributes="0"/>
-                              <Component id="jButton7" min="-2" max="-2" attributes="0"/>
-                              <Component id="jButton47" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton35" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton25" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton15" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton45" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Component id="jButton26" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton16" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton36" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton46" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jButton6" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jButton27" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton17" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton7" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton47" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jButton18" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton8" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton28" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton38" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton48" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="jButton37" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jButton18" min="-2" max="-2" attributes="0"/>
-                              <Component id="jButton8" min="-2" max="-2" attributes="0"/>
-                              <Component id="jButton28" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jButton38" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jButton48" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton9" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton19" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton29" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton39" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton49" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <Component id="jButton37" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jButton9" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton19" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton29" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton39" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton49" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel5" min="-2" pref="34" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="lReintegro" min="-2" pref="46" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -315,7 +332,7 @@
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/boletin26/1.jpg"/>
+              <Image iconType="3" name="/Imagenes/1.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -347,6 +364,9 @@
               <ComponentRef name="buttonGroup1"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jButton4">
           <Properties>
@@ -381,7 +401,7 @@
         <Component class="javax.swing.JButton" name="jButton7">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\7.jpg"/>
+              <Image iconType="3" name="/Imagenes/7.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -391,7 +411,7 @@
         <Component class="javax.swing.JButton" name="jButton8">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\8.jpg"/>
+              <Image iconType="3" name="/Imagenes/8.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -401,7 +421,7 @@
         <Component class="javax.swing.JButton" name="jButton9">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\9.jpg"/>
+              <Image iconType="3" name="/Imagenes/9.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -411,7 +431,7 @@
         <Component class="javax.swing.JButton" name="jButton10">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\10.jpg"/>
+              <Image iconType="3" name="/Imagenes/10.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -421,7 +441,7 @@
         <Component class="javax.swing.JButton" name="jButton11">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\11.jpg"/>
+              <Image iconType="3" name="/Imagenes/11.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -431,7 +451,7 @@
         <Component class="javax.swing.JButton" name="jButton12">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\12.jpg"/>
+              <Image iconType="3" name="/Imagenes/12.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -441,7 +461,7 @@
         <Component class="javax.swing.JButton" name="jButton13">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\13.jpg"/>
+              <Image iconType="3" name="/Imagenes/13.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -451,7 +471,7 @@
         <Component class="javax.swing.JButton" name="jButton14">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\14.jpg"/>
+              <Image iconType="3" name="/Imagenes/14.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -461,7 +481,7 @@
         <Component class="javax.swing.JButton" name="jButton15">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\15.jpg"/>
+              <Image iconType="3" name="/Imagenes/15.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -471,7 +491,7 @@
         <Component class="javax.swing.JButton" name="jButton16">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\16.jpg"/>
+              <Image iconType="3" name="/Imagenes/16.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -481,7 +501,7 @@
         <Component class="javax.swing.JButton" name="jButton17">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\17.jpg"/>
+              <Image iconType="3" name="/Imagenes/17.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -491,7 +511,7 @@
         <Component class="javax.swing.JButton" name="jButton18">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\18.jpg"/>
+              <Image iconType="3" name="/Imagenes/18.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -501,7 +521,7 @@
         <Component class="javax.swing.JButton" name="jButton19">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\19.jpg"/>
+              <Image iconType="3" name="/Imagenes/19.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -511,7 +531,7 @@
         <Component class="javax.swing.JButton" name="jButton20">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\20.jpg"/>
+              <Image iconType="3" name="/Imagenes/20.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -521,7 +541,7 @@
         <Component class="javax.swing.JButton" name="jButton21">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\21.jpg"/>
+              <Image iconType="3" name="/Imagenes/21.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -531,7 +551,7 @@
         <Component class="javax.swing.JButton" name="jButton22">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\22.jpg"/>
+              <Image iconType="3" name="/Imagenes/22.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -541,7 +561,7 @@
         <Component class="javax.swing.JButton" name="jButton23">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\23.jpg"/>
+              <Image iconType="3" name="/Imagenes/23.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -551,7 +571,7 @@
         <Component class="javax.swing.JButton" name="jButton24">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\24.jpg"/>
+              <Image iconType="3" name="/Imagenes/24.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -561,7 +581,7 @@
         <Component class="javax.swing.JButton" name="jButton25">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\25.jpg"/>
+              <Image iconType="3" name="/Imagenes/25.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -571,7 +591,7 @@
         <Component class="javax.swing.JButton" name="jButton26">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\26.jpg"/>
+              <Image iconType="3" name="/Imagenes/26.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -581,7 +601,7 @@
         <Component class="javax.swing.JButton" name="jButton27">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\27.jpg"/>
+              <Image iconType="3" name="/Imagenes/27.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -591,7 +611,7 @@
         <Component class="javax.swing.JButton" name="jButton28">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\28.jpg"/>
+              <Image iconType="3" name="/Imagenes/28.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -601,7 +621,7 @@
         <Component class="javax.swing.JButton" name="jButton29">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\29.jpg"/>
+              <Image iconType="3" name="/Imagenes/29.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -611,7 +631,7 @@
         <Component class="javax.swing.JButton" name="jButton30">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\30.jpg"/>
+              <Image iconType="3" name="/Imagenes/30.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -621,7 +641,7 @@
         <Component class="javax.swing.JButton" name="jButton31">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\31.jpg"/>
+              <Image iconType="3" name="/Imagenes/31.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -631,7 +651,7 @@
         <Component class="javax.swing.JButton" name="jButton32">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\32.jpg"/>
+              <Image iconType="3" name="/Imagenes/32.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -641,7 +661,7 @@
         <Component class="javax.swing.JButton" name="jButton33">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\33.jpg"/>
+              <Image iconType="3" name="/Imagenes/33.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -651,7 +671,7 @@
         <Component class="javax.swing.JButton" name="jButton34">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\34.jpg"/>
+              <Image iconType="3" name="/Imagenes/34.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -661,7 +681,7 @@
         <Component class="javax.swing.JButton" name="jButton35">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\35.jpg"/>
+              <Image iconType="3" name="/Imagenes/35.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -671,7 +691,7 @@
         <Component class="javax.swing.JButton" name="jButton36">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\36.jpg"/>
+              <Image iconType="3" name="/Imagenes/36.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -681,7 +701,7 @@
         <Component class="javax.swing.JButton" name="jButton37">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\37.jpg"/>
+              <Image iconType="3" name="/Imagenes/37.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -691,7 +711,7 @@
         <Component class="javax.swing.JButton" name="jButton38">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\38.jpg"/>
+              <Image iconType="3" name="/Imagenes/38.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -701,7 +721,7 @@
         <Component class="javax.swing.JButton" name="jButton39">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\39.jpg"/>
+              <Image iconType="3" name="/Imagenes/39.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -711,7 +731,7 @@
         <Component class="javax.swing.JButton" name="jButton40">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\40.jpg"/>
+              <Image iconType="3" name="/Imagenes/40.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -721,7 +741,7 @@
         <Component class="javax.swing.JButton" name="jButton41">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\41.jpg"/>
+              <Image iconType="3" name="/Imagenes/41.jpg"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -809,11 +829,6 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Yasm&#xed;n\Documents\NetBeansProjects\Boletin26\src\Imagenes\indice1.jpg"/>
-            </Property>
-          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
@@ -846,7 +861,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bComprobarActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JLabel" name="numeroPrimiado">
+        <Component class="javax.swing.JLabel" name="numeroPremiado">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="18" style="0"/>
@@ -857,6 +872,13 @@
         <Component class="javax.swing.JLabel" name="lNumeroPremiado">
         </Component>
         <Component class="javax.swing.JLabel" name="lApuesta">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="REINTEGRO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lReintegro">
         </Component>
       </SubComponents>
     </Container>
